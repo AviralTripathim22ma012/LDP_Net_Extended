@@ -1,5 +1,5 @@
 import numpy as np
-from io_utils import parse_args_test
+from io_utils_1 import parse_args_test
 import test_1_dataset
 import ResNet10_1
 import torch
