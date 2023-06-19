@@ -17,3 +17,7 @@ dataset:
 !wget http://madm.dfki.de/files/sentinel/EuroSAT.zip
 !unzip /content/EuroSAT.zip
 ~~~
+
+## References:
+
+https://github.com/NWPUZhoufei/LDP-Net/tree/main
