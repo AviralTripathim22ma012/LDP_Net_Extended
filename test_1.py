@@ -7,7 +7,7 @@ import scipy.stats as stats
 from sklearn.linear_model import LogisticRegression
 import random
 import warnings
-import pdb
+
 warnings.filterwarnings("ignore", category=Warning)
 
 
@@ -86,7 +86,7 @@ def test(novel_loader, model, params):
                     
                     crop_pred = crop_classifier.predict(out_query_LR_with_GC[k].reshape(1, -1))
                     print(crop_pred)
-                    pdb.set_trace()
+                    
                     
                     crop_preds.append(crop_pred[0])
                 avg_pred[k] = int(stats.mode(crop_preds)[0])
